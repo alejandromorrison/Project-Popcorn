@@ -7,18 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20ECC369349B369C8D916FF1 /* Pods_Popcorn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9587AAA0415C4AB97948E149 /* Pods_Popcorn.framework */; };
+		6047F45F2829D5110062EEA0 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 6047F45E2829D5110062EEA0 /* locations.json */; };
+		6047F4612829D6340062EEA0 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 6047F4602829D6340062EEA0 /* videos.json */; };
+		60829BC528295D7E0060E587 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60829BC428295D7E0060E587 /* LocationModel.swift */; };
+		60829BCD28295F970060E587 /* videoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60829BCC28295F970060E587 /* videoModel.swift */; };
+		60829BD42829607F0060E587 /* TeenAbuse.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 60829BD02829607F0060E587 /* TeenAbuse.mp4 */; };
+		60829BD52829607F0060E587 /* Mechanism.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 60829BD12829607F0060E587 /* Mechanism.mp4 */; };
+		60829BD62829607F0060E587 /* SubstanceAbuse.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 60829BD22829607F0060E587 /* SubstanceAbuse.mp4 */; };
+		60829BD72829607F0060E587 /* HowAddictionHappens.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 60829BD32829607F0060E587 /* HowAddictionHappens.mp4 */; };
+		60829BD9282960D80060E587 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60829BD8282960D80060E587 /* VideoPlayerView.swift */; };
+		60829BDB282961260060E587 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60829BDA282961260060E587 /* VideoPlayerHelper.swift */; };
+		60829BDD282962A20060E587 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60829BDC282962A20060E587 /* CodableBundleExtension.swift */; };
+		60829BDF2829634F0060E587 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60829BDE2829634F0060E587 /* VideoListItemView.swift */; };
+		60829BE1282966E30060E587 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60829BE0282966E30060E587 /* MapAnnotationView.swift */; };
+		60829BE3282967060060E587 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60829BE2282967060060E587 /* InsetMapView.swift */; };
 		609256752826C2E7001DAE4B /* PopcornApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609256742826C2E7001DAE4B /* PopcornApp.swift */; };
 		609256772826C2E7001DAE4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609256762826C2E7001DAE4B /* ContentView.swift */; };
 		609256792826C2EC001DAE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609256782826C2EC001DAE4B /* Assets.xcassets */; };
 		6092567C2826C2EC001DAE4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6092567B2826C2EC001DAE4B /* Preview Assets.xcassets */; };
+		609256832826E2CD001DAE4B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 609256822826E2CD001DAE4B /* GoogleService-Info.plist */; };
+		609AF0082828734D00931A14 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609AF0072828734D00931A14 /* MainView.swift */; };
+		609AF00B282894CC00931A14 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609AF00A282894CC00931A14 /* MapView.swift */; };
+		609AF00D282894EA00931A14 /* PatientsReferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609AF00C282894EA00931A14 /* PatientsReferenceView.swift */; };
+		609AF00F2828954E00931A14 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609AF00E2828954E00931A14 /* VideoListView.swift */; };
+		609AF0132828983A00931A14 /* PatientsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609AF0122828983A00931A14 /* PatientsModel.swift */; };
+		609AF015282898D100931A14 /* ViewPatientsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609AF014282898D100931A14 /* ViewPatientsModel.swift */; };
+		60F523C228281DC900DFC246 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F523C128281DC900DFC246 /* ViewModel.swift */; };
+		60F523C428281FC300DFC246 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F523C328281FC200DFC246 /* Todo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6047F45E2829D5110062EEA0 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = locations.json; path = ../../../../locations.json; sourceTree = "<group>"; };
+		6047F4602829D6340062EEA0 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = videos.json; path = ../../../../videos.json; sourceTree = "<group>"; };
+		60829BC428295D7E0060E587 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		60829BCC28295F970060E587 /* videoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoModel.swift; sourceTree = "<group>"; };
+		60829BD02829607F0060E587 /* TeenAbuse.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = TeenAbuse.mp4; path = ../../../../TeenAbuse.mp4; sourceTree = "<group>"; };
+		60829BD12829607F0060E587 /* Mechanism.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Mechanism.mp4; path = ../../../../Mechanism.mp4; sourceTree = "<group>"; };
+		60829BD22829607F0060E587 /* SubstanceAbuse.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = SubstanceAbuse.mp4; path = ../../../../SubstanceAbuse.mp4; sourceTree = "<group>"; };
+		60829BD32829607F0060E587 /* HowAddictionHappens.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = HowAddictionHappens.mp4; path = ../../../../HowAddictionHappens.mp4; sourceTree = "<group>"; };
+		60829BD8282960D80060E587 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		60829BDA282961260060E587 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		60829BDC282962A20060E587 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		60829BDE2829634F0060E587 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
+		60829BE0282966E30060E587 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		60829BE2282967060060E587 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
+		60829BE4282967F40060E587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		609256712826C2E7001DAE4B /* Popcorn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Popcorn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		609256742826C2E7001DAE4B /* PopcornApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopcornApp.swift; sourceTree = "<group>"; };
 		609256762826C2E7001DAE4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		609256782826C2EC001DAE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6092567B2826C2EC001DAE4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		609256822826E2CD001DAE4B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		609AF0072828734D00931A14 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		609AF00A282894CC00931A14 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		609AF00C282894EA00931A14 /* PatientsReferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsReferenceView.swift; sourceTree = "<group>"; };
+		609AF00E2828954E00931A14 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		609AF0122828983A00931A14 /* PatientsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsModel.swift; sourceTree = "<group>"; };
+		609AF014282898D100931A14 /* ViewPatientsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPatientsModel.swift; sourceTree = "<group>"; };
+		60F523C128281DC900DFC246 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		60F523C328281FC200DFC246 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		80DD50458228FFD8EA611467 /* Pods-Popcorn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Popcorn.release.xcconfig"; path = "Target Support Files/Pods-Popcorn/Pods-Popcorn.release.xcconfig"; sourceTree = "<group>"; };
+		9587AAA0415C4AB97948E149 /* Pods_Popcorn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Popcorn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2FD1B476D13F857BB1C632 /* Pods-Popcorn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Popcorn.debug.xcconfig"; path = "Target Support Files/Pods-Popcorn/Pods-Popcorn.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +77,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20ECC369349B369C8D916FF1 /* Pods_Popcorn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C34BAD7465EA4CF2A3220D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9587AAA0415C4AB97948E149 /* Pods_Popcorn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60829BC628295DE40060E587 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6047F4602829D6340062EEA0 /* videos.json */,
+				6047F45E2829D5110062EEA0 /* locations.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		60829BCF282960680060E587 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				60829BD32829607F0060E587 /* HowAddictionHappens.mp4 */,
+				60829BD12829607F0060E587 /* Mechanism.mp4 */,
+				60829BD22829607F0060E587 /* SubstanceAbuse.mp4 */,
+				60829BD02829607F0060E587 /* TeenAbuse.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
 		609256682826C2E7001DAE4B = {
 			isa = PBXGroup;
 			children = (
 				609256732826C2E7001DAE4B /* Popcorn */,
 				609256722826C2E7001DAE4B /* Products */,
+				7E4A6C444FBFB1307E102A09 /* Pods */,
+				3C34BAD7465EA4CF2A3220D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +133,18 @@
 		609256732826C2E7001DAE4B /* Popcorn */ = {
 			isa = PBXGroup;
 			children = (
+				60829BE4282967F40060E587 /* Info.plist */,
+				60829BCF282960680060E587 /* Video */,
+				60829BC628295DE40060E587 /* Data */,
+				609AF0092828736600931A14 /* App */,
+				60F523C02828194F00DFC246 /* Models */,
+				60F523BF2828194500DFC246 /* ViewModels */,
+				60F523BE2828193C00DFC246 /* Views */,
 				609256742826C2E7001DAE4B /* PopcornApp.swift */,
-				609256762826C2E7001DAE4B /* ContentView.swift */,
 				609256782826C2EC001DAE4B /* Assets.xcassets */,
+				609256822826E2CD001DAE4B /* GoogleService-Info.plist */,
 				6092567A2826C2EC001DAE4B /* Preview Content */,
+				60829BDC282962A20060E587 /* CodableBundleExtension.swift */,
 			);
 			path = Popcorn;
 			sourceTree = "<group>";
@@ -67,6 +157,59 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		609AF0092828736600931A14 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				609AF0072828734D00931A14 /* MainView.swift */,
+				609AF00A282894CC00931A14 /* MapView.swift */,
+				609AF00C282894EA00931A14 /* PatientsReferenceView.swift */,
+				609AF00E2828954E00931A14 /* VideoListView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		60F523BE2828193C00DFC246 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				609256762826C2E7001DAE4B /* ContentView.swift */,
+				60829BD8282960D80060E587 /* VideoPlayerView.swift */,
+				60829BDA282961260060E587 /* VideoPlayerHelper.swift */,
+				60829BDE2829634F0060E587 /* VideoListItemView.swift */,
+				60829BE0282966E30060E587 /* MapAnnotationView.swift */,
+				60829BE2282967060060E587 /* InsetMapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		60F523BF2828194500DFC246 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		60F523C02828194F00DFC246 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				60F523C128281DC900DFC246 /* ViewModel.swift */,
+				60F523C328281FC200DFC246 /* Todo.swift */,
+				609AF0122828983A00931A14 /* PatientsModel.swift */,
+				609AF014282898D100931A14 /* ViewPatientsModel.swift */,
+				60829BC428295D7E0060E587 /* LocationModel.swift */,
+				60829BCC28295F970060E587 /* videoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7E4A6C444FBFB1307E102A09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC2FD1B476D13F857BB1C632 /* Pods-Popcorn.debug.xcconfig */,
+				80DD50458228FFD8EA611467 /* Pods-Popcorn.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6092567F2826C2EC001DAE4B /* Build configuration list for PBXNativeTarget "Popcorn" */;
 			buildPhases = (
+				EB84E9D0E25C485C9F116203 /* [CP] Check Pods Manifest.lock */,
 				6092566D2826C2E7001DAE4B /* Sources */,
 				6092566E2826C2E7001DAE4B /* Frameworks */,
 				6092566F2826C2E7001DAE4B /* Resources */,
+				DE24985B2FB214607183E0D9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,12 +270,61 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60829BD42829607F0060E587 /* TeenAbuse.mp4 in Resources */,
+				60829BD72829607F0060E587 /* HowAddictionHappens.mp4 in Resources */,
+				6047F45F2829D5110062EEA0 /* locations.json in Resources */,
+				60829BD62829607F0060E587 /* SubstanceAbuse.mp4 in Resources */,
 				6092567C2826C2EC001DAE4B /* Preview Assets.xcassets in Resources */,
+				6047F4612829D6340062EEA0 /* videos.json in Resources */,
+				60829BD52829607F0060E587 /* Mechanism.mp4 in Resources */,
 				609256792826C2EC001DAE4B /* Assets.xcassets in Resources */,
+				609256832826E2CD001DAE4B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DE24985B2FB214607183E0D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Popcorn/Pods-Popcorn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Popcorn/Pods-Popcorn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Popcorn/Pods-Popcorn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB84E9D0E25C485C9F116203 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Popcorn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6092566D2826C2E7001DAE4B /* Sources */ = {
@@ -138,7 +332,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				609256772826C2E7001DAE4B /* ContentView.swift in Sources */,
+				609AF00B282894CC00931A14 /* MapView.swift in Sources */,
+				60F523C228281DC900DFC246 /* ViewModel.swift in Sources */,
+				609AF0132828983A00931A14 /* PatientsModel.swift in Sources */,
+				609AF00D282894EA00931A14 /* PatientsReferenceView.swift in Sources */,
+				60829BE3282967060060E587 /* InsetMapView.swift in Sources */,
+				60829BE1282966E30060E587 /* MapAnnotationView.swift in Sources */,
+				60829BC528295D7E0060E587 /* LocationModel.swift in Sources */,
+				609AF00F2828954E00931A14 /* VideoListView.swift in Sources */,
 				609256752826C2E7001DAE4B /* PopcornApp.swift in Sources */,
+				609AF015282898D100931A14 /* ViewPatientsModel.swift in Sources */,
+				609AF0082828734D00931A14 /* MainView.swift in Sources */,
+				60829BDB282961260060E587 /* VideoPlayerHelper.swift in Sources */,
+				60F523C428281FC300DFC246 /* Todo.swift in Sources */,
+				60829BD9282960D80060E587 /* VideoPlayerView.swift in Sources */,
+				60829BCD28295F970060E587 /* videoModel.swift in Sources */,
+				60829BDD282962A20060E587 /* CodableBundleExtension.swift in Sources */,
+				60829BDF2829634F0060E587 /* VideoListItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +471,7 @@
 		};
 		609256802826C2EC001DAE4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC2FD1B476D13F857BB1C632 /* Pods-Popcorn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -270,9 +481,9 @@
 				DEVELOPMENT_TEAM = NJSTC654C9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Popcorn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -290,6 +501,7 @@
 		};
 		609256812826C2EC001DAE4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80DD50458228FFD8EA611467 /* Pods-Popcorn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,9 +511,9 @@
 				DEVELOPMENT_TEAM = NJSTC654C9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Popcorn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
